@@ -1,0 +1,369 @@
+/*
+    Hoja de estilos del sitio: www.cseiio.edu.mx
+    Autor: Ing. Josue Alejandro Ruiz Chimal;
+ */
+/* ESTILOS GENERALES */
+
+html,
+body {
+    height: 100%;
+    /*background-color: #e6e6e6;*/
+    font-family: 'Play', sans-serif;
+}
+
+body {
+    padding-top: 0px; 
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+/* SLIDER PRINCIPAL */
+
+header.carousel {
+    height: 60%;
+    width: 70%;
+    margin-left: 240px;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* EFECTOS PARA CIRCULOS DE SERVICIOS GENERALES  */
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img.hidden {
+  overflow: hidden;
+}
+.div-img .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img:hover .img {
+  transform: scale(0.9));
+  -ms-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+
+/* MENU */
+.panel.with-nav-tabs .panel-heading{
+    padding: 2px 2px 0 2px;
+}
+.panel.with-nav-tabs .nav-tabs{
+    border-bottom: none;
+    font-weight: bold; 
+}
+.panel.with-nav-tabs .nav-justified{
+    margin-bottom: -1px;
+}
+
+.with-nav-tabs.panel-default .nav-tabs > li > a,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #777;
+}
+.with-nav-tabs.panel-default .nav-tabs > .open > a,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #fff;
+    /*background-color: #cc3370;*/
+	background-color:#d60071;
+    border-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
+    color: #fff;
+    /*background-color: #cc3370;*/
+	background-color:#d60071;
+    border-color: #cc3370;
+    border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #f5f5f5;
+    border-color: #fff;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #777;   
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    /*background-color: #cc3370;*/
+	background-color:#d60071;
+    color: #fff;  
+}
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    color: #fff;
+    /*background-color: #cc3370;*/
+	background-color:#d60071;
+}
+
+/* SECCION MULTIMEDIA */
+#youtube
+{
+    width:513px;
+    height:330px;
+    background:#ff8080;
+    border:#F90;
+    padding:0.5em;
+    margin:0 auto;
+    -webkit-box-shadow: 2px 2px 5px #333;
+    -moz-box-shadow: 2px 2px 5px #333;
+    filter: shadow(color=#999999, direction=135, strength=2);
+    border-radius:5px;
+}
+
+#twitter
+{
+    width:513px;
+    height:330px;
+    background:#e6ff99;
+    border:#F90;
+    padding:0.5em;
+    margin:0 auto;
+    -webkit-box-shadow: 2px 2px 5px #333;
+    -moz-box-shadow: 2px 2px 5px #333;
+    filter: shadow(color=#999999, direction=135, strength=2);
+    border-radius:5px;
+}
+
+#facebook
+{
+    width:513px;
+    height:330px;
+    background:#3370cc;
+    border:#F90;
+    padding:0.5em;
+    margin:0 auto;
+    -webkit-box-shadow: 2px 2px 5px #333;
+    -moz-box-shadow: 2px 2px 5px #333;
+    filter: shadow(color=#999999, direction=135, strength=2);
+    border-radius:5px;
+}
+
+#galeria
+{
+    width:513px;
+    height:330px;
+    background:#7de87d;
+    border:#F90;
+    padding:0.5em;
+    margin:0 auto;
+    -webkit-box-shadow: 2px 2px 5px #333;
+    -moz-box-shadow: 2px 2px 5px #333;
+    filter: shadow(color=#999999, direction=135, strength=2);
+    border-radius:5px;
+}
+
+/* PIE DE PAGINA*/
+
+footer {
+    background-color: #595959;
+    max-height: 100%; 
+    width: 100%; 
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+/* GALERIA */
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #737373;
+
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 800px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.nextSlider {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextSlider {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.nextSlider:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+/* MEDIA QUERYS RESPONSIVOS */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 60%;
+    }
+}
+
+@media only screen 
+and (max-width : 700px) {
+.cuerponoticia > img {
+  height: 100%;
+  width: 100%;
+}
+}
+
+@media only screen 
+and (max-width : 700px) {
+.cuerponoticia > div > img {
+  height: 100%;
+  width: 100%;
+}
+}
+
+@media only screen 
+and (max-width : 700px) {
+.cuerponoticia > span > img {
+  height: 100%;
+  width: 100%;
+}
+}
